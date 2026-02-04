@@ -1,0 +1,67 @@
+ /* Etiquetas  */
+
+ h1,h2{text-align: center;margin-top: 50px;}
+
+ a {text-decoration:none;color:black;}
+
+ body{margin:0; padding:0; background-color:#f3ffff;}
+ 
+ h1, body {font-family: Helvetica, Times}
+
+ section {overflow: auto;} 
+
+
+ /* Header */
+
+ header {height:200px;padding-top: 5px ; padding-bottom: 20px; display: flex; justify-content: center;padding-left:50px;border-bottom:2px solid black;background-color:#dde3a5;}
+
+ header h1 {line-height: 200px;height:100px;margin: 0; padding: 0;}
+
+/*Nav*/
+
+ nav {margin-top: 20px;color:white;border: 2px solid rgb(0,0,0);border-left: none; border-right:none; background-color: #99a038;justify-content: center; align-items: center;}
+
+/* Footer */
+
+ footer {padding-bottom: 20px; padding-top: 10px;color: rgb(240, 248, 255); font-size: 20px;border-top:2px solid black;background-color:#3b8b8d;}
+
+/*Section*/
+
+ #section {height: 100%; width: 100%; padding-left:20px;background-color: #ffffff; border:2px solid black;border-left:none;}
+
+
+/*Class*/
+
+ .Anakin {display: flex; margin: 20px auto; align-items: flex-start;gap:5px;}
+ 
+ .products {display:flex;align-items: center; gap:10px; padding: 20px;}
+
+ .products h4, .products p {margin: 5px 0; text-align: left;}
+ 
+ .Obiwan {display:flex}
+
+ .Obiwan_Kenobi {text-align: center;}
+
+ .round {border-radius: 10px;}
+
+ .round_1 {border-radius:5px;}
+
+ .small {font-size:15px; color:white;}
+
+ .s_1 {border:2px solid rgb(0,0,0);background-color:#ffffff;color:#ffffff}
+
+ .s_1 h1 {border:2px solid rgb(0,0,0);border-left:none;border-right:none;background-color:#8a598e;color:#ffffff}
+
+ .text {border:2px solid rgb(0,0,0);border-left:none;border-right:none;background-color:#8a598e;color:#ffffff}
+ 
+ .text_1 {border:2px solid rgb(0,0,0);border-left:none;border-radius:2px;background-color:#8a598e;color:#ffffff}
+
+ .title_Y {background-color: #e6f3cc;border-radius: 10px ;margin-right: 10px;}
+
+ .No_points {list-style: none;}
+
+ /* Codigos extras */
+
+ nav ul {list-style: none; padding:0px;margin:0px; display:flex; justify-content: center;}
+ nav ul li {margin: 0 25px;}
+
